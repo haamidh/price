@@ -1,9 +1,8 @@
 {
-    "buildCommand": "npm run build",
-    "outputDirectory": "dist",
-    "installCommand": "npm install",
+    "buildCommand": "cd Price-Research && npm run build",
+    "outputDirectory": "Price-Research/dist",
+    "installCommand": "cd Price-Research && npm install",
     "framework": "vite",
-    "cwd": "Price-Research",
     "rewrites": [
         {
             "source": "/(.*)",
